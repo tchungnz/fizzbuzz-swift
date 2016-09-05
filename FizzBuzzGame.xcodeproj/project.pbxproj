@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53B24B391D7DE34300BE0F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B24B381D7DE34300BE0F7E /* AppDelegate.swift */; };
+		53B24B3B1D7DE34300BE0F7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B24B3A1D7DE34300BE0F7E /* ViewController.swift */; };
+		53B24B3E1D7DE34300BE0F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B24B3C1D7DE34300BE0F7E /* Main.storyboard */; };
+		53B24B401D7DE34300BE0F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B24B3F1D7DE34300BE0F7E /* Assets.xcassets */; };
+		53B24B431D7DE34300BE0F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53B24B411D7DE34300BE0F7E /* LaunchScreen.storyboard */; };
+		53B24B4E1D7DE34300BE0F7E /* FizzBuzzGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B24B4D1D7DE34300BE0F7E /* FizzBuzzGameTests.swift */; };
+		53B24B591D7DE34300BE0F7E /* FizzBuzzGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B24B581D7DE34300BE0F7E /* FizzBuzzGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53B24B4A1D7DE34300BE0F7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53B24B2D1D7DE34300BE0F7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B24B341D7DE34300BE0F7E;
+			remoteInfo = FizzBuzzGame;
+		};
+		53B24B551D7DE34300BE0F7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53B24B2D1D7DE34300BE0F7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53B24B341D7DE34300BE0F7E;
+			remoteInfo = FizzBuzzGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53B24B351D7DE34300BE0F7E /* FizzBuzzGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzzGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B24B381D7DE34300BE0F7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53B24B3A1D7DE34300BE0F7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53B24B3D1D7DE34300BE0F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53B24B3F1D7DE34300BE0F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53B24B421D7DE34300BE0F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53B24B441D7DE34300BE0F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B24B491D7DE34300BE0F7E /* FizzBuzzGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B24B4D1D7DE34300BE0F7E /* FizzBuzzGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzGameTests.swift; sourceTree = "<group>"; };
+		53B24B4F1D7DE34300BE0F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53B24B541D7DE34300BE0F7E /* FizzBuzzGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FizzBuzzGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B24B581D7DE34300BE0F7E /* FizzBuzzGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FizzBuzzGameUITests.swift; sourceTree = "<group>"; };
+		53B24B5A1D7DE34300BE0F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53B24B321D7DE34300BE0F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B24B461D7DE34300BE0F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B24B511D7DE34300BE0F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53B24B2C1D7DE34300BE0F7E = {
+			isa = PBXGroup;
+			children = (
+				53B24B371D7DE34300BE0F7E /* FizzBuzzGame */,
+				53B24B4C1D7DE34300BE0F7E /* FizzBuzzGameTests */,
+				53B24B571D7DE34300BE0F7E /* FizzBuzzGameUITests */,
+				53B24B361D7DE34300BE0F7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53B24B361D7DE34300BE0F7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53B24B351D7DE34300BE0F7E /* FizzBuzzGame.app */,
+				53B24B491D7DE34300BE0F7E /* FizzBuzzGameTests.xctest */,
+				53B24B541D7DE34300BE0F7E /* FizzBuzzGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53B24B371D7DE34300BE0F7E /* FizzBuzzGame */ = {
+			isa = PBXGroup;
+			children = (
+				53B24B381D7DE34300BE0F7E /* AppDelegate.swift */,
+				53B24B3A1D7DE34300BE0F7E /* ViewController.swift */,
+				53B24B3C1D7DE34300BE0F7E /* Main.storyboard */,
+				53B24B3F1D7DE34300BE0F7E /* Assets.xcassets */,
+				53B24B411D7DE34300BE0F7E /* LaunchScreen.storyboard */,
+				53B24B441D7DE34300BE0F7E /* Info.plist */,
+			);
+			path = FizzBuzzGame;
+			sourceTree = "<group>";
+		};
+		53B24B4C1D7DE34300BE0F7E /* FizzBuzzGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				53B24B4D1D7DE34300BE0F7E /* FizzBuzzGameTests.swift */,
+				53B24B4F1D7DE34300BE0F7E /* Info.plist */,
+			);
+			path = FizzBuzzGameTests;
+			sourceTree = "<group>";
+		};
+		53B24B571D7DE34300BE0F7E /* FizzBuzzGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53B24B581D7DE34300BE0F7E /* FizzBuzzGameUITests.swift */,
+				53B24B5A1D7DE34300BE0F7E /* Info.plist */,
+			);
+			path = FizzBuzzGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53B24B341D7DE34300BE0F7E /* FizzBuzzGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B24B5D1D7DE34300BE0F7E /* Build configuration list for PBXNativeTarget "FizzBuzzGame" */;
+			buildPhases = (
+				53B24B311D7DE34300BE0F7E /* Sources */,
+				53B24B321D7DE34300BE0F7E /* Frameworks */,
+				53B24B331D7DE34300BE0F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FizzBuzzGame;
+			productName = FizzBuzzGame;
+			productReference = 53B24B351D7DE34300BE0F7E /* FizzBuzzGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53B24B481D7DE34300BE0F7E /* FizzBuzzGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B24B601D7DE34300BE0F7E /* Build configuration list for PBXNativeTarget "FizzBuzzGameTests" */;
+			buildPhases = (
+				53B24B451D7DE34300BE0F7E /* Sources */,
+				53B24B461D7DE34300BE0F7E /* Frameworks */,
+				53B24B471D7DE34300BE0F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53B24B4B1D7DE34300BE0F7E /* PBXTargetDependency */,
+			);
+			name = FizzBuzzGameTests;
+			productName = FizzBuzzGameTests;
+			productReference = 53B24B491D7DE34300BE0F7E /* FizzBuzzGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53B24B531D7DE34300BE0F7E /* FizzBuzzGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B24B631D7DE34300BE0F7E /* Build configuration list for PBXNativeTarget "FizzBuzzGameUITests" */;
+			buildPhases = (
+				53B24B501D7DE34300BE0F7E /* Sources */,
+				53B24B511D7DE34300BE0F7E /* Frameworks */,
+				53B24B521D7DE34300BE0F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53B24B561D7DE34300BE0F7E /* PBXTargetDependency */,
+			);
+			name = FizzBuzzGameUITests;
+			productName = FizzBuzzGameUITests;
+			productReference = 53B24B541D7DE34300BE0F7E /* FizzBuzzGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53B24B2D1D7DE34300BE0F7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = TC;
+				TargetAttributes = {
+					53B24B341D7DE34300BE0F7E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					53B24B481D7DE34300BE0F7E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 53B24B341D7DE34300BE0F7E;
+					};
+					53B24B531D7DE34300BE0F7E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 53B24B341D7DE34300BE0F7E;
+					};
+				};
+			};
+			buildConfigurationList = 53B24B301D7DE34300BE0F7E /* Build configuration list for PBXProject "FizzBuzzGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53B24B2C1D7DE34300BE0F7E;
+			productRefGroup = 53B24B361D7DE34300BE0F7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53B24B341D7DE34300BE0F7E /* FizzBuzzGame */,
+				53B24B481D7DE34300BE0F7E /* FizzBuzzGameTests */,
+				53B24B531D7DE34300BE0F7E /* FizzBuzzGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53B24B331D7DE34300BE0F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B24B431D7DE34300BE0F7E /* LaunchScreen.storyboard in Resources */,
+				53B24B401D7DE34300BE0F7E /* Assets.xcassets in Resources */,
+				53B24B3E1D7DE34300BE0F7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B24B471D7DE34300BE0F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B24B521D7DE34300BE0F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53B24B311D7DE34300BE0F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B24B3B1D7DE34300BE0F7E /* ViewController.swift in Sources */,
+				53B24B391D7DE34300BE0F7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B24B451D7DE34300BE0F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B24B4E1D7DE34300BE0F7E /* FizzBuzzGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53B24B501D7DE34300BE0F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B24B591D7DE34300BE0F7E /* FizzBuzzGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53B24B4B1D7DE34300BE0F7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53B24B341D7DE34300BE0F7E /* FizzBuzzGame */;
+			targetProxy = 53B24B4A1D7DE34300BE0F7E /* PBXContainerItemProxy */;
+		};
+		53B24B561D7DE34300BE0F7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53B24B341D7DE34300BE0F7E /* FizzBuzzGame */;
+			targetProxy = 53B24B551D7DE34300BE0F7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53B24B3C1D7DE34300BE0F7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B24B3D1D7DE34300BE0F7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53B24B411D7DE34300BE0F7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53B24B421D7DE34300BE0F7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53B24B5B1D7DE34300BE0F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53B24B5C1D7DE34300BE0F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53B24B5E1D7DE34300BE0F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FizzBuzzGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TC.FizzBuzzGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		53B24B5F1D7DE34300BE0F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FizzBuzzGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TC.FizzBuzzGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		53B24B611D7DE34300BE0F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FizzBuzzGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TC.FizzBuzzGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FizzBuzzGame.app/FizzBuzzGame";
+			};
+			name = Debug;
+		};
+		53B24B621D7DE34300BE0F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FizzBuzzGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TC.FizzBuzzGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FizzBuzzGame.app/FizzBuzzGame";
+			};
+			name = Release;
+		};
+		53B24B641D7DE34300BE0F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FizzBuzzGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TC.FizzBuzzGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FizzBuzzGame;
+			};
+			name = Debug;
+		};
+		53B24B651D7DE34300BE0F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FizzBuzzGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TC.FizzBuzzGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FizzBuzzGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53B24B301D7DE34300BE0F7E /* Build configuration list for PBXProject "FizzBuzzGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B24B5B1D7DE34300BE0F7E /* Debug */,
+				53B24B5C1D7DE34300BE0F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53B24B5D1D7DE34300BE0F7E /* Build configuration list for PBXNativeTarget "FizzBuzzGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B24B5E1D7DE34300BE0F7E /* Debug */,
+				53B24B5F1D7DE34300BE0F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53B24B601D7DE34300BE0F7E /* Build configuration list for PBXNativeTarget "FizzBuzzGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B24B611D7DE34300BE0F7E /* Debug */,
+				53B24B621D7DE34300BE0F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53B24B631D7DE34300BE0F7E /* Build configuration list for PBXNativeTarget "FizzBuzzGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B24B641D7DE34300BE0F7E /* Debug */,
+				53B24B651D7DE34300BE0F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53B24B2D1D7DE34300BE0F7E /* Project object */;
+}
