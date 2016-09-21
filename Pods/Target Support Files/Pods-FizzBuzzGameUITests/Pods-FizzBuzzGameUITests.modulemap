@@ -1,6 +1,0 @@
-framework module Pods_FizzBuzzGameUITests {
-  umbrella header "Pods-FizzBuzzGameUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,6 +1,0 @@
-framework module Pods_FizzBuzzGame {
-  umbrella header "Pods-FizzBuzzGame-umbrella.h"
-
-  export *
-  module * { export * }
-}
