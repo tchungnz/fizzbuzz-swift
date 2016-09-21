@@ -9,3 +9,6 @@ Rules
 - For multiples of 5, players must touch the 'fizzbuzz' button.
 - For all other numbers, players touch the 'number' button.
 
+Project Background
+-----
+This was my first mobile application and was built to quickly familiarise myself with Swift/Xcode before building our final project [Flare](https://github.com/appflare/flare).
