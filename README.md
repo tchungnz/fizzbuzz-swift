@@ -11,4 +11,4 @@ Rules
 
 Project Background
 -----
-This was my first mobile application and was built to quickly familiarise myself with Swift/Xcode before building our final project [Flare](https://github.com/appflare/flare).
+This was my first mobile application and was built to quickly familiarise myself with Swift/Xcode before building our final project [Flare](https://github.com/appflare/flare). Thanks to [Yvette] (https://github.com/yvettecook) for the tutorial.
